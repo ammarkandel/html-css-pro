@@ -14,9 +14,16 @@
       Thank you for taking the time to help us improve the platform
     </p>
     <form id="survey-form">
-      <input type="text" id="name" required />
-      <input type="email" id="email" required />
-      <input type="number" id="number" min="10" max="100" required />
+      <label for="name" id="name-label"></label>
+      <input type="text" id="name" required placeholder="enter a name"/><br>
+      <label for="email" id="email-label"></label>
+      <input type="email" id="email" required placeholder="enter a valid email"/><br>
+      <label for="number" id="number-label"></label>
+      <input type="number" id="number" min="10" max="100" required placeholder="enter a number between 10 and 100" /><br>
+      <select id="dropdown">
+        
+      </select>
+
     </form>
     <script src="js/index.js"></script>
   </body>
