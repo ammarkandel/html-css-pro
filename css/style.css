@@ -1,0 +1,12 @@
+#title,
+#description {
+  text-align: center;
+  color: rgb(80, 78, 78);
+}
+
+#survey-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
